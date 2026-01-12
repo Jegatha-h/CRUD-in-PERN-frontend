@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = "http://localhost:5000/users";
+const API = "https://crud-in-pern.onrender.com/users";
 
 export const getUsers = () => axios.get(API);
 export const createUser = (data) => axios.post(API, data);
